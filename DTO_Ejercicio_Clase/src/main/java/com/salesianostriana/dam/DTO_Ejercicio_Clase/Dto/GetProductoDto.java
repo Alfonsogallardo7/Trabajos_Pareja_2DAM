@@ -19,7 +19,7 @@ public class GetProductoDto {
 
     private double pvp;
 
-    private String imagenes;
+    private List <String> imagenes;
 
     private Categoria Categoria;
 

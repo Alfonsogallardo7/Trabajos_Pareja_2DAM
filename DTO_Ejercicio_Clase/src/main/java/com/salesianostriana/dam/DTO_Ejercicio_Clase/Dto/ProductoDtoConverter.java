@@ -17,5 +17,15 @@ public class ProductoDtoConverter {
                 c.getCategoria());
     }
 
+    public GetProductoDto alumnoToGetAlumnoDto (Producto p) {
+
+        GetProductoDto result = new GetProductoDto();
+        result.setNombre(p.getNombre());
+        result.setPvp(p.getPvp());
+        result.setImagenes(p.getImagenes());
+        result.setCategoria(p.getCategoria());
+        return result;
+
+    }
 
 }

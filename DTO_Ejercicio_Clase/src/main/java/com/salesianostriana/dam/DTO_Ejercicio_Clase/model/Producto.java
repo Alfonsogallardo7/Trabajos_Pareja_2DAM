@@ -45,4 +45,6 @@ public class Producto {
         this.pvp = pvp;
         this.imagenes = imagenes;
     }
+
+
 }
