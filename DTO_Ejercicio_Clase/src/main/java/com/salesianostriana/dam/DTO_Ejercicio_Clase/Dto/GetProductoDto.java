@@ -1,5 +1,6 @@
-package com.salesianostriana.dam.DTO_Ejercicio_Clase.model;
+package com.salesianostriana.dam.DTO_Ejercicio_Clase.Dto;
 
+import com.salesianostriana.dam.DTO_Ejercicio_Clase.model.Categoria;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,16 +14,13 @@ import java.util.List;
 @AllArgsConstructor
 @Builder
 public class GetProductoDto {
-    private Long id;
 
     private String nombre;
 
-    private double desc;
-
     private double pvp;
 
-    private List<String> imagenes;
+    private String imagenes;
 
-    private Categoria categoria;
+    private Categoria Categoria;
 
 }
