@@ -44,4 +44,8 @@ public class Alumno {
         Direccion = direccion;
         Curso = curso;
     }
+
+    public Alumno(String nombre, String apellido1, String apellido2, String curso, String direccion, String email) {
+
+    }
 }
