@@ -1,4 +1,4 @@
-package com.salesianostriana.dam.DTO_Ejercicio_Clase;
+package com.salesianostriana.dam.DTO_Ejercicio_Clase.model;
 
 
 import lombok.Data;
